@@ -1,0 +1,71 @@
+
+
+
+
+
+.signup-body{
+    
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    background-color: #24353F;
+}
+
+
+
+.signup-body .contain{
+    width: 65%;
+    
+    text-align: center;
+    margin-top: 50px;
+    height: 400px;
+    padding: 20px;
+    background-color: #24353F;
+    box-shadow: 0px 0px 15px #000;
+}
+.signup-body .contain h1{
+    color: #17A2B8;
+}
+
+.signup-body #email,.signup-body #password ,.signup-body #name{
+    width: 90%;
+    margin-top: 15px;
+    padding: 5px 0px 5px 4px;
+    border-radius: 5px;
+    border: solid #fff 1px;
+    background-color: transparent;
+}
+
+.signup-body #btn{
+    width: 90%;
+    margin-top: 15px;
+    padding: 5px 0;
+    border-radius: 5px;
+    border: solid #17A2B8 1px;
+    background-color: transparent;
+    color: #17A2B8;
+    transition: background-color , color 0.3s , 0.3s;
+}
+.signup-body #btn:hover{
+    background-color:#17A2B8 ;
+    color: #fff;
+}
+.signup-body .contain p{
+    color: #fff;
+    margin-top: 10px;
+}
+.signup-body .contain p a{
+    text-decoration: none;
+    color: #fff;
+}
+.signup-body .contain p a:hover{
+    text-decoration: underline;
+}
+.signup-body #alert , .signup-body #exit{
+    color: #B93545;
+}
+.signup-body #success{
+    color:#26563F;
+}

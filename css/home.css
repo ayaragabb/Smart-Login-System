@@ -1,0 +1,51 @@
+.my-nav{
+    background-color: #24353F !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 15px #000;
+    z-index: 9999;
+}
+.my-nav .navbar-brand{
+    color: #fff;
+}
+.my-nav #logout{
+    padding: 6px 5px;
+    border-radius: 5px;
+    border: solid #FFC107 1px;
+    background-color: transparent;
+    color: gray;
+    transition: background-color , color 0.3s , 0.3s;
+}
+.my-nav #logout:hover{
+    background-color: #FFC107;
+    color: #fff;
+}
+.home-body{
+    background-color: #24353F;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.home-body .welcome{
+    height: 150px;
+    width: 60%;
+    background-color: #24353F;
+    box-shadow: 0 0 20px #000;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.home-body .welcome p{
+    color: rgb(23, 162, 184)
+    ;
+    font-size: 40px;
+    font-weight: 500;
+    
+}
